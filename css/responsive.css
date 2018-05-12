@@ -1,16 +1,44 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+@media screen and (max-width: 360px) {
+  body{
+  transform:scale(0.40);
+  }
+  h1{
+    font-size: 80px;
+    text-align: center;
+  }
+  .score-panel {
+    font-size: 16px;
+    text-align: left;
+  }
+  .modal-backdrop {
+      display: none;
+  }
 
-@media screen and and (max-width: 360px) {
-  .body{
-  width: 50%;
-  height: auto;
+}
+
+@media screen and (min-width: 361px) and (max-width: 700px) {
+  body{
+  transform:scale(0.60);
+  padding-top: -10px;
+  }
+
+  h1{
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .score-panel {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .modal-backdrop {
+      display: none;
   }
 }
-
-@media screen and (min-width: 407px) and (max-width: 700px) {
-
-}
-
-@media screen and (min-width: 701px) and (max-width: 1500px) {
-
 }
