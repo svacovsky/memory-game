@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+        <section class="score-panel">
+			<span class="timer">0</span>
+			<span class="timerWords">Seconds</span>
+        	<ul class="stars">
+			    	<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+        	<span class="moves">0</span> Moves
+            <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+        <ul class="deck">
+            <li class="card">
+              <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-cube"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card">
+              <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+    </div>
+	<div class="modal" id="winnerChickenDinner" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title">Winner!</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<p>Modal Body</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button"  id="close" class="btn btn-secondary" data-dismiss="modal">Play Again</button>
+			  </div>
+			</div>
+		</div>
+	</div>
+    <script src="js/magic.js"></script>
+</body>
+</html>
