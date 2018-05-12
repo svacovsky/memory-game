@@ -1,17 +1,22 @@
-Memory Game for Udacity
+**Memory Game for Udacity**
+
 This is a javascript replication of the memory matching game.
 
-Getting Started
+**Getting Started**
+
 Make sure all files are pulled down.  There should be a css folder, a js folder, an images folder, an index.html and this READme.
 
-How to Play Memory
+**How to Play Memory**
+
 This is a memory matching game.  Click on a card and then click on a second card.  If the cards are a match, they will turn a different color.  If they are not, they will flip back over. Click on pairs of cards until all cards are matched.  While this game is played, the player will be timed and rated.  If the player wins, the time, number of moves, and star rating will be displayed. 
 
 
-Prerequisites
+**Prerequisites**
+
 Need a webbrowser to run this. 
 
-Dependencies
+**Dependencies**
+
 ```
 <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
@@ -21,11 +26,14 @@ Dependencies
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 ```
 
-Versioning
+**Versioning**
+
 We use SemVer for versioning. For the versions available, see the tags on this repository.
 
-Authors
+**Authors**
+
 This project was created as an assignment for Udacity
 
-Acknowledgments & License
-Template provided by Udacity.
+**Acknowledgments & License**
+
+Template provided by Udacity
