@@ -1,0 +1,16 @@
+
+
+@media screen and and (max-width: 360px) {
+  .body{
+  width: 50%;
+  height: auto;
+  }
+}
+
+@media screen and (min-width: 407px) and (max-width: 700px) {
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1500px) {
+
+}

@@ -36,7 +36,7 @@ h1 {
 /*
  * Styles for the deck of cards
  */
- 
+
 .deck {
     width: 660px;
     min-height: 680px;
@@ -73,14 +73,14 @@ h1 {
 
 .modal-body, .modal-footer  {
 	font-size: 33px;
-	color: white; 
+	color: white;
 	background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
-	text-align: center; 
+	text-align: center;
 }
 
 .modal-header{
 	font-size: 50px;
-	color: white; 
+	color: white;
 	background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
 }
 
@@ -99,9 +99,9 @@ h1 {
  */
 
  .timerWords{
-	margin-right: 50px; 
+	margin-right: 50px;
  }
- 
+
 .score-panel {
 
     width: 345px;
